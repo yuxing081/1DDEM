@@ -1,0 +1,28 @@
+{
+    "material_properties_file": "dataset.xlsx",
+    "particles": [
+      {
+        "particleID":0,
+        "radius": 25e-6,
+        "material_name": "PS",
+        "initial_velocity": -5,
+        "initial_height": 25.003e-6,
+        "roughness":0
+      }
+    ],
+    "ground": {
+      "groundID":0,
+      "material_name": "silicon",
+      "position": 0,
+      "roughness":0
+    },
+    "integrator": "Euler",
+    "time_step": 0.000000001,
+    "total_simulation_time": 0.0000005,
+    
+    "gravity":-9.8,
+    "adhesive_inner_cutoff":1.65e-10,
+    "adhesive_outer_cutoff":2e-9,
+    "surface_energy_contact":0.3
+  }
+  
